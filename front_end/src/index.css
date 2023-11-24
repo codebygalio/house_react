@@ -1,0 +1,25 @@
+html,body,#root,.App{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+*{
+box-sizing: border-box;
+touch-action: pan-y;
+}
+h1,h2,h3,p,ul,dd {
+  margin: 0;
+}
+.body-fixed {
+  overflow: hidden;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+.route-loading{
+  padding-top: 100px;
+  text-align: center;
+}
